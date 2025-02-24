@@ -1,0 +1,12 @@
+h1 {
+    background-color: goldenrod;
+    color: red;
+    font-family: Garamond, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: darkred;
+    font-weight: bold;
+    font-size: 30px;
+}
