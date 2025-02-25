@@ -1,6 +1,8 @@
 img {
     height: 450px;
     width: auto;
+    margin: auto;
+    display: block;
 }
 
 h1 {
@@ -8,17 +10,27 @@ h1 {
     color: red;
     font-family: Garamond, 'Times New Roman', sans-serif;
     text-align: center;
+    padding: 16px;
+    margin: 0px auto 8px;
+    border: 4px dotted darkred;
 }
 
 p, h3 {
     color: darkred;
     font-size: 30px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding: 8px;
+    margin: 8px auto;
+    width: 80%;
 }
 
 .ingredients, .steps {
     background-color: lavender;
     font-size: 20px;
-
+    margin: -8px auto 0px;
+    border: 2px dashed blue;
+    width: 80%
 }
 
 .ingredients .optional {
@@ -28,7 +40,16 @@ p, h3 {
 
 button {
     background-color: goldenrod;
-    color: red;
-    text-align: center;
+    color: darkred;
+    padding: 16px 24px;
+    width: 80%;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 8px auto 0px;
+    display: block;
     
+}
+
+a {
+    text-decoration: none;
 }
